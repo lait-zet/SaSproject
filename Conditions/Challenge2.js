@@ -1,6 +1,6 @@
 const input = require('prompt-sync')();
 
-const char = input("entrer a character : ").to
+const char = input("entrer a character : ")
 
 switch(char)
 {
