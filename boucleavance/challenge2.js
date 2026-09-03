@@ -1,16 +1,36 @@
 const input = require('prompt-sync')();
 
-const nl =parseInt(input("entrer le nombre de ligne "))
-let lenc = 1
-let i = 1
-while(i < nl)
+n = parseInt(input("entrer votre nombre :"))
+
+let i = 0;
+let lenL = 1
+while (i < n - 1 )
 {
-    lenc += 2
+    lenL += 2
     i++
 }
-console.log(lenc)
+lenL++
+var p = 1
+var s = 0
 
-// for(let i = 0 ; i <= nl ; i++)
-// {
-//     for(let j = 0 ; i <)
-// }
+for (let m = 0; m < n ; m++)
+{
+    for(let j = 0; j < lenL ; j++)
+    {
+        let point_rempli = Math.floor((lenL / 2)) - s
+        if (j == point_rempli )
+        {
+            let k = 0
+            while(k < p)
+            {
+                process.stdout.write("*");
+                k++
+            }
+            j += p
+            p += 2
+            s++
+        }
+     process.stdout.write(" ");
+    }
+    console.log()
+}
