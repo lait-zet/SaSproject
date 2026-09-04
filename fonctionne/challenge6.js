@@ -9,7 +9,7 @@ function Fibonacci(n)
         return 0
     if (n == 1)
     {
-        return 
+        return 1
     }
     let i = 1
     let a = 0;

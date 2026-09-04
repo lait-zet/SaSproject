@@ -1,15 +1,8 @@
 const input = require('prompt-sync')();
 
 const userInput = input("veuillez ecrit votre preimiere string : ")
-
-let i = 0
-while(userInput[i] !== undefined)
-{
-    i++
-}
-
+let i = userInput.length - 1
 let inversestr = "";
-i--
 while(i >= 0)
 {
     inversestr += userInput[i]
