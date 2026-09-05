@@ -1,6 +1,6 @@
 function Affiche_table(table)
 {
-    for(i of table)
+    for(let i of table)
     {
         console.log(i)
     }

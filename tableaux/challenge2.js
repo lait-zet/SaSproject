@@ -1,5 +1,4 @@
 const prompt = require('prompt-sync')()
-function Saisire_remplire_Table(n)
 {
     let tabel = []
     for(let i = 0 ; i < n ; i++)
